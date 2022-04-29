@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://sprites/corncob.png" type="Texture" id=1]
+[ext_resource path="res://sprites/Collectibles/corncob.png" type="Texture" id=1]
 [ext_resource path="res://scenes/title/TitleMenuButton.gd" type="Script" id=2]
 [ext_resource path="res://scenes/ui/Themes/Default/default.tres" type="Theme" id=3]
 

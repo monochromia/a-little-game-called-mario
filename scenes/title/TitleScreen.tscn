@@ -1,7 +1,7 @@
 [gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://fonts/ALittleNameCalle.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://sprites/bg-tile.png" type="Texture" id=2]
+[ext_resource path="res://sprites/tiles/bg-tile.png" type="Texture" id=2]
 [ext_resource path="res://scenes/ui/Themes/Default/default.tres" type="Theme" id=3]
 [ext_resource path="res://scenes/title/Background.gd" type="Script" id=4]
 [ext_resource path="res://audio/sfx/meow.wav" type="AudioStream" id=5]
@@ -239,22 +239,21 @@ margin_left = 200.0
 margin_right = 378.0
 margin_bottom = 52.0
 text = "SOKOBAN MODE"
-redirect_scene = "res://scenes/sokoban/SokobanMain.tscn"
+redirect_scene = "res://scenes/levels/DDR_01/Level.tscn"
 
 [node name="FlappyMarioButton" parent="VBoxContainer/VBoxContainer/HBoxContainer" instance=ExtResource( 16 )]
 margin_left = 424.0
 margin_right = 602.0
 margin_bottom = 52.0
 text = "FLAPPY MARIO"
-redirect_scene = "res://scenes/levels/Flappy/Flappy01.tscn"
+redirect_scene = "res://scenes/levels/DDR_01/Level.tscn"
 
 [node name="MarwingButton" parent="VBoxContainer/VBoxContainer/HBoxContainer" instance=ExtResource( 16 )]
 margin_left = 648.0
 margin_right = 766.0
 margin_bottom = 52.0
 text = "MARWING"
-redirect_scene = "res://scenes/marwing/levels/1-0.tscn"
-
+redirect_scene = "res://scenes/levels/DDR_01/Level.tscn"
 
 [node name="OptionsButton" parent="VBoxContainer/VBoxContainer" instance=ExtResource( 16 )]
 margin_left = 324.0
@@ -263,7 +262,7 @@ margin_right = 442.0
 margin_bottom = 164.0
 disabled = true
 text = "OPTIONS"
-
+redirect_scene = "res://scenes/levels/DDR_01/Level.tscn"
 
 [node name="CreditsButton" parent="VBoxContainer/VBoxContainer" instance=ExtResource( 16 )]
 margin_left = 324.0
@@ -271,7 +270,7 @@ margin_top = 168.0
 margin_right = 442.0
 margin_bottom = 220.0
 text = "CREDITS"
-redirect_scene = "res://scenes/Credits.tscn"
+redirect_scene = "res://scenes/levels/DDR_01/Level.tscn"
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
 margin_top = 482.0
