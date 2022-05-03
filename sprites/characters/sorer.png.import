@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+<<<<<<<< HEAD:textures/trails/pluralFlag.jpg.import
+path="res://.import/pluralFlag.jpg-2805a813c8f5b39aa0c4928bf032c0e1.stex"
+========
+path="res://.import/sorer.png-e41b73bb3cfb5e8bec6fb650ae90a3dd.stex"
+>>>>>>>> c180350bac2489d5e72d6369bdc421c39d9f60c5:sprites/characters/sorer.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<<< HEAD:textures/trails/pluralFlag.jpg.import
+source_file="res://textures/trails/pluralFlag.jpg"
+dest_files=[ "res://.import/pluralFlag.jpg-2805a813c8f5b39aa0c4928bf032c0e1.stex" ]
+========
+source_file="res://sprites/characters/sorer.png"
+dest_files=[ "res://.import/sorer.png-e41b73bb3cfb5e8bec6fb650ae90a3dd.stex" ]
+>>>>>>>> c180350bac2489d5e72d6369bdc421c39d9f60c5:sprites/characters/sorer.png.import
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
